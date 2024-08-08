@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	position: absolute;
+	width: 1361px;
+	margin: auto;
+	top: 0px;
+	height: 650px;
+	background-image: url(../img/artotel.jpg);
+	background-repeat: no-repeat;
+	background-color:#000
+}
+
+#field1 {
+	position: absolute;
+	margin-top: 262px !important;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<--! Non IE
+	margin-left:-320px  !important;<--! Non IE
+	width:234px;
+	height: 46px;
+	background: url(../img/field1.png)
+	 no-repeat;
+	left: 840px;
+	top: 180px;
+	width: 289px;
+	background-image: url(../img/field1.png);
+}
+	
+#field2 {
+	position: absolute;
+	margin-top: 330px !important;
+	visibility:hidden
+
+
+
+
+
+
+
+<--! Non IE
+	left:500px !important;<--! Non IE
+	width:233px;
+	height: 35px;
+	background: url('../img/field2.gif') no-repeat;
+	left: 600px;
+	top: 200px;
+	width: 225px;
+	background-image: url(../img/field2.gif);
+	left: 600px;
+	visibility:hidden
+}
+
+#btn {
+	position: absolute;
+	margin-top: 387px !important;
+	
+<--! Non IE
+	left:500px !important;<--! Non IE
+	width:233px;
+	height: 32px;
+	background: url('../img/button.png') no-repeat;
+	left: 840px;
+	top: 125px;
+	width: 119px;
+	background-image: url(../img/button.png);
+}
+
+#ai {
+	position: absolute;
+	margin-top: 500px !important;
+
+
+
+<--! Non IE
+	left:500px !important;<--! Non IE
+	width: 20px;
+	left: 90px;
+	background-color: transparent;
+	top: 125px;
+	
+}
+
+#bb {
+	position: absolute;
+	margin-top: 500px !important;
+
+<--! Non IE
+	left:500px !important;<--! Non IE
+	width: 20px;
+	left: 185px;
+	background-color: transparent;
+	top: 125px;	
+}
+#cur {
+	position: absolute;
+	margin-top: 500px !important;
+
+
+
+<--! Non IE
+	left:500px !important;<--! Non IE
+	width: 20px;
+	left: 260px;
+	background-color: transparent;
+	top: 125px;
+}
+#abc {
+	position: absolute;
+	margin-top: 500px !important;
+
+
+
+
+<--! Non IE
+	left:500px !important;<--! Non IE
+	width: 20px;
+	left: 360px;
+	background-color: transparent;
+	top: 125px;
+}
+#aps {
+	position: absolute;
+	margin-top: 500px !important;
+
+
+
+
+
+
+<--! Non IE
+	left:500px !important;<--! Non IE
+	width: 20px;
+	left: 430px;
+	background-color: transparent;
+	top: 125px;
+}
+#aol {
+	position: absolute;
+	margin-top: 500px !important;
+
+
+<--! Non IE
+	left:500px !important;<--! Non IE
+	width: 20px;
+	left: 500px;
+	background-color: transparent;
+	top: 125px;
+}
+
+#ag {
+	position: absolute;
+	margin-top: 500px !important;
+	transform: rotate(90deg);
+
+
+
+
+
+
+
+
+
+
+
+
+
+<--! Non IE
+	left:500px !important;<--! Non IE
+	width: 20px;
+	left: 1320px;
+	background-color: transparent;
+	top: -460px;
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+	width: 100px;
+	height: 20px;
+}
+
+#ig {
+	position: absolute;
+	margin-top: 500px !important;
+
+
+
+
+
+
+<--! Non IE
+	left:500px !important;<--! Non IE
+	width: 20px;
+	left: 840px;
+	background-color: transparent;
+	top: 125px;
+}
+
+#fb {
+	position: absolute;
+	margin-top: 500px !important;
+
+
+
+
+
+
+<--! Non IE
+	left:500px !important;<--! Non IE
+	width: 20px;
+	left: 1000px;
+	background-color: transparent;
+	top: 125px;
+}
+
+#twit {
+	position: absolute;
+	margin-top: 500px !important;
+
+
+
+
+
+<--! Non IE
+	left:500px !important;<--! Non IE
+	width: 20px;
+	left: 1180px;
+	background-color: transparent;
+	top: 125px;
+}
+
+a:link {
+	color:rgba(255,255,255,0);
+}
+
+#promo {
+	position: absolute;
+	margin-top: 387px !important;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<--! Non IE
+	left:500px !important;<--! Non IE
+	width:233px;
+	height: 542px;
+	background: url('../img/promo.jpg') no-repeat;
+	left: 90px;
+	top: -345px;
+	width: 439px;
+	background-image:url(../img/promo.jpg);
+}
+
+	
+.classinput {
+	margin-top: 3px;
+	font-size: 18px;
+	height: 35px;
+	margin-left: 10px;
+	width: 270px;
+	border: none;
+	border-color: transparent;
+	outline:none;
+	font-style: normal;
+}
+.classinput2 {
+	margin-top:7px;
+	font-size:14px;
+	margin-left:30px;
+	width:160px;
+	border-color:transparent;
+	height:15px;
+	border:none;}
+	

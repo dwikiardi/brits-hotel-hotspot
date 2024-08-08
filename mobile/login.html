@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+
+<title>artotelgroup:</title>
+
+<meta name="viewport" content="width = device-width, height = device-height, initial-scale=1.0" />
+
+<meta name="HandheldFriendly" content="True" />
+
+<meta name="MobileOptimized" content="320" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta http-equiv="pragma" content="no-cache" />
+
+<meta http-equiv="expires" content="-1" />
+
+<script type="text/javascript" src="jquery-1.6.4.min.js"></script>
+
+</head>
+
+<body  bgcolor="#FFFFFF">
+
+$(if chap-id)
+
+<form name="sendin" action="$(link-login-only)" method="post">
+
+		<input type="hidden" name="username" />
+
+		<input type="hidden" name="password" />
+
+		<input type="hidden" name="dst" value="https://www.artotelindonesia.com/haniman-ubud/" />
+
+		<input type="hidden" name="popup" value="true" />
+
+</form>
+
+	
+
+<script type="text/javascript" src="/md5.js"></script>
+
+<script type="text/javascript">
+
+	<!--
+
+	    function doLogin() {
+
+		document.sendin.username.value = document.login.username.value;
+
+		document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
+
+		document.sendin.submit();
+
+		return false;
+
+	    }
+
+	//-->
+
+	</script>
+
+$(endif)
+
+<table width="320" border="0" align="center">
+
+	<tr>
+
+	<td align="center" valign="top" bgcolor="#FFFFFF">
+
+	  <div align="center"><img src="img/logo.png" width="320" height="144" /></div>
+
+
+
+	  <form name="login" action="$(link-login-only)" method="post"
+
+								$(if chap-id) onSubmit="return doLogin()" $(endif)>
+
+							<input type="hidden" name="dst" value="$(link-orig)" />
+
+								<input type="hidden" name="popup" value="true" />
+                                
+		<table width="289" style="background-color: #FFF " align="center">       
+
+	  <tr>
+				<td width="320" align="center"> <div style="background:url(img/field1.png) no-repeat; position:absolute; width:289px; height:45px; background-image:url(img/field1.png)" align="center"> <input name="username" placeholder="username" style="text-align:center; margin-top:6px; font-size:18px; height:33px;; width:265px; border:thin; border-color:#000; outline:solid; font-style:normal" type="text" value="$(username)"/></div></td>
+
+		  </tr>
+			<tr>
+            
+            	<td height="47" align="center"><div style="position:absolute; width:233px; height:35px; background:url(img/field2.gif) no-repeat; background-image:url(img/field2.gif); visibility:hidden" align="center">
+                  <input name="password" type="password" value="it20164rt0t3l" />
+              </div></td>
+
+			</tr>
+
+			<tr>
+
+            	<td width ="100" height ="42" align="center"><div style="position: absolute; width: 119px; height: 32px; background: url(img/button.png) no-repeat; background-image: url(img/button.png); margin-left: 80px" id="btn" align="center"><input type="image" src="img/button.png" /></div></td>
+
+		  </tr>
+
+		</table>
+
+      </form>
+
+				</td>
+
+  </tr>
+
+		</table>
+
+<script type="text/javascript">
+
+<!--
+
+  document.login.username.focus();
+
+//-->
+
+</script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

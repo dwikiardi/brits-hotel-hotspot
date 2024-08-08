@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+#field1 {
+	position: absolute;
+	width:289px;
+	height:49px;
+	background: url(../img/field1.png) no-repeat;
+	background-image: url(../img/field1.png);
+}
+	
+#field2 {
+	position: absolute;
+	width:233px;
+	height: 35px;
+	background: url('../img/field2.gif') no-repeat;
+	background-image: url(../img/field2.gif);
+	visibility:hidden
+}
+
+#btn {
+	position: absolute;
+	width: 119px;
+	height: 32px;
+	background: url('../img/button.png') no-repeat;
+	background-image: url(../img/button.png);
+	margin-left:80px;
+}
+
+
+	
+.classinput {
+	margin-top:6px;
+	font-size: 18px;
+	height: 33px;
+	width: 270px;
+	border: none;
+	border-color: transparent;
+	outline:none;
+	font-style: normal;
+}
+.classinput2 {
+	margin-top:7px;
+	font-size:14px;
+	margin-left:30px;
+	width:160px;
+	border-color:transparent;
+	height:15px;
+	border:none;}
+	
